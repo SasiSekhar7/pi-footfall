@@ -21,7 +21,7 @@ MODEL_PATH = "models/tf2_ssd_mobilenet_v2_coco17_ptq_edgetpu.tflite" # Example: 
 # For this to work:
 #   1. MODEL_PATH MUST be an EdgeTPU-compiled model.
 #   2. EdgeTPU runtime (libedgetpu.so.1 and correct tflite-runtime) MUST be installed.
-USE_EDGETPU = True
+USE_EDGETPU = False
 
 # --- Model and Detection Parameters ---
 COCO_LABELS = [
